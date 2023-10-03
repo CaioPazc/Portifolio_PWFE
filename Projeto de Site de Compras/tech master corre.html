@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Tech Master</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img id="icone" src="microchip.png" alt="Logo" style="width:8%; margin-left: 10px;">
+            <h1 style="font-size: 27px;">Tech Master</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" onmouseover="mudaFoto('pc.png')" onmouseout="mudaFoto('microchip.png')"
+                        style="width:8%; margin-left: 10px;">Computador</a></li>
+                <li><a href="#" onmouseover="mudaFoto('controle-de-video-game.png')"
+                        onmouseout="mudaFoto('microchip.png')">Vídeo Game</a></li>
+                <li><a href="#" onmouseover="mudaFoto('smartphone.png')"
+                        onmouseout="mudaFoto('microchip.png')">Celular</a></li>
+                <li><a href="#" onmouseover="mudaFoto('telefone.png')"
+                        onmouseout="mudaFoto('microchip.png')">Contato</a></li>
+                <li><a href="#" onmouseover="mudaFoto('equipe.png')" onmouseout="mudaFoto('microchip.png')">Quem
+                        Somos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+    <div class="box-inicial">
+        <div class="columpic">
+            <img src="diladin.jpg" alt="Miniatura 1" onclick="updateProductImage('diladin.jpg')"
+                onmousemove="updateProductImage('diladin.jpg')">
+            <img src="costa.jpg" alt="Miniatura 2" onclick="updateProductImage('costa.jpg')"
+                onmousemove="updateProductImage('costa.jpg')">
+            <img src="frente.jpg" alt="Miniatura 3" onclick="updateProductImage('frente.jpg')"
+                onmousemove="updateProductImage('frente.jpg')">
+            <img src="outro ladin.jpg" alt="Miniatura 4" onclick="updateProductImage('outro ladin.jpg')"
+                onmousemove="updateProductImage('outro ladin.jpg')">
+            <img style="margin-bottom: 10px;" src="buraquinaberto.jpg" alt="Miniatura 5"
+                onclick="updateProductImage('buraquinaberto.jpg')"
+                onmousemove="updateProductImage('buraquinaberto.jpg')">
+        </div>
+
+        <div class="princpic" id="box">
+            <img src="diladin.jpg" alt="Imagem Principal" id="product-image">
+        </div>
+
+        <div class="opc">
+            <h2>Caixa de Som Portátil JBL Boombox 3, Bluetooth, 180W RMS, Wi-Fi, Preta</h2>
+            <h1>R$ 3.875,00</h1>
+            <p style="font-size: 10px;">À vista no PIX </p>
+            <p>Em até 10x de R$ 387,50 sem juros no cartão</p>
+            <div class="bottom">
+                <button class="cssbuttons-io-button"> Comprar
+                    <div class="icon">
+                        <svg class="cartIcon" viewBox="0 0 576 512">
+                            <path
+                                d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z">
+                            </path>
+                        </svg>
+                    </div>
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="codigo.js" defer></script>
+    <script>
+        function updateProductImage(imageSrc) {
+            document.getElementById('product-image').src = imageSrc;
+        }
+    </script>
+
+    <script>
+        function mudaFoto(item) {
+            document.getElementById("icone").src = item;
+        }
+    </script>
+</body>

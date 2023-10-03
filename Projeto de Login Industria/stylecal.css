@@ -1,0 +1,100 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  color: white;
+}
+
+.boxprin {
+  width: 80%;
+  height: 40%; 
+  margin: 3% auto;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #000;
+  text-align: center;
+}
+.boxprin h1 {
+  padding-top: 2%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/*box dos botoes*/
+input{
+  height: 30px;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+#res {
+  font-size: larger;
+  color: red;
+  text-align: center;
+}
+
+button  {
+margin: 11px;
+height: 50px;
+width: 120px;
+margin-top: 5px ;
+border-radius: 10px;
+background: #3f3f3f;
+justify-content: center;
+align-items: center;
+box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+font-family: 'Damion', cursive;
+border: none;
+font-size: 16px;
+color: rgb(161, 161, 161);
+transition: 500ms;
+}
+
+button:hover  {
+box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+color: #d6d6d6;
+transition: 500ms;
+}
+
+/*aaaaaaaaaaaaaaa*/
+

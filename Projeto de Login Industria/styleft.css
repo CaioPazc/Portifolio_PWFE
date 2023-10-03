@@ -1,0 +1,141 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  color: white;
+}
+
+.boxprin {
+  width: 80%;
+  height: 40%; 
+  margin: 3% auto;
+  background-color: #333;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #000;
+  text-align: center;
+}
+.boxprin h1 {
+  padding-top: 3%;
+  padding-bottom: 2%;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+label {
+  display: block;
+  margin-bottom: 40px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#resultado {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/*box dos botoes*/
+input{
+  height: 20px;
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+#res {
+  font-size: larger;
+  color: rgb(135, 57, 57);
+  text-align: center;
+}
+
+button {
+margin: 11px;
+height: 50px;
+width: 120px;
+margin-top: 5px ;
+border-radius: 10px;
+background: #3f3f3f;
+justify-content: center;
+align-items: center;
+box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+font-family: 'Damion', cursive;
+border: none;
+font-size: 16px;
+color: rgb(161, 161, 161);
+transition: 500ms;
+}
+
+button:hover {
+box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+color: #d6d6d6;
+transition: 500ms;
+}
+
+/*aaaaaaaaaaaaaaa*/
+
+  /* Estilo para o botão "Limpar" */
+  .limpar {
+    background-color: #92121f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.limpar:hover {
+    background-color: #c82333;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#data-hora {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ffffff;
+    margin-top: 10px;
+}

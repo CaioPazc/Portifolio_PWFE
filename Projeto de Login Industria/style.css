@@ -1,0 +1,61 @@
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+}
+
+.boxprin {
+    width: 80%;
+    height: 40%; 
+    margin: 3% auto;
+    background-color: #333;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #000;
+    text-align: center;
+}
+/*box da logo e titulo */
+.box1 {
+  height: 50%;
+}
+.box1 p {
+  width: 100%;
+}
+
+/*box dos botoes*/
+input{
+    height: 30px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#res {
+    font-size: larger;
+    color: red;
+    text-align: center;
+}
+
+button {
+  margin: 11px;
+  height: 50px;
+  width: 120px;
+  margin-top: 5px ;
+  border-radius: 10px;
+  background: #3f3f3f;
+  justify-content: center;
+  align-items: center;
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #444, inset -5px -5px 10px #222;
+  font-family: 'Damion', cursive;
+  border: none;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  transition: 500ms;
+  text-decoration: none;
+}
+
+button:hover {
+  box-shadow: -5px -5px 15px #444, 5px 5px 15px #222, inset 5px 5px 10px #222, inset -5px -5px 10px #444;
+  color: #d6d6d6;
+  transition: 500ms;
+}
