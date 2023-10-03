@@ -1,0 +1,314 @@
+/* DOC CSS */
+/*Principal*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*linha*/
+
+.linha1 {
+    border: 1px solid black;
+    margin-bottom: 60px;
+    margin-top: 60px;
+}
+
+.linha2 {
+    border: 1px solid black;
+    margin-bottom: 60px;
+    margin-top: 150px;
+}
+
+/*header*/
+header {
+    background-color: #000;
+    height: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: -7px 9px 9px -9px rgba(0, 0, 0, 0.99);
+    border: 1px solid #ffffff33;
+}
+
+header #logo {
+    width: 90px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+header #logo img {
+    width: 100%;
+}
+
+#menu div {
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu div a img {
+    height: 50px;
+    margin-left: 10px;
+}
+
+#menu div a p {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+}
+
+/*variedades*/
+button {
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    margin: 0 10px;
+    padding-right: 85px;
+}
+
+button:focus,
+button:hover {
+    color: #fff;
+}
+
+button:focus:after,
+button:hover:after {
+    width: 100%;
+    left: -20%;
+}
+
+button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 40%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+button {
+    font-size: 18px;
+    color: #e1e1e1;
+    font-family: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    position: relative;
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: color;
+    margin: 0 10px;
+    padding-right: 85px;
+}
+
+button:focus,
+button:hover {
+    color: #fff;
+}
+
+button:focus:after,
+button:hover:after {
+    width: 100%;
+    left: -20%;
+}
+
+button:after {
+    content: "";
+    pointer-events: none;
+    bottom: -2px;
+    left: 40%;
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #fff;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 400ms;
+    transition-property: width, left;
+}
+
+/*logo*/
+
+section #topo {
+    width: 80%;
+    height: 550px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section #logo {
+    width: 100%;
+    height: 450px;
+    margin-right: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section #logo img {
+    height: 100%;
+}
+
+#slogan h1 {
+    width: 95%;
+    height: 100px;
+    text-align: center;
+    font-size: 50px;
+    margin: 40px;
+
+
+}
+
+#logotipo #logo_linha2 {
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#logotipo #logo_linha2 figure {
+    width: 280px;
+    height: 220px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logotipo #logo_linha2 figure img {
+    height: 100%;
+    width: 150px;
+}
+
+#logotipo #logo_linha1 article h3 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    justify-content: center;
+    display: flex;
+
+}
+
+/* CORES */
+
+#cores {
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cores #circulo_cores {
+    width: 600px;
+    height: 490px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#cores #circulo_cores .circulo {
+    width: 155px;
+    height: 150px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+#cores article {
+    width: 600px;
+    height: 450px;
+    font-size: 25px;
+}
+
+#cores article h3 {
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+/* FONTES */
+
+#fontes {
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#fontes article {
+    width: 800px;
+}
+
+/* Fotos */
+#aplicabilidade {
+    text-align: center;
+    height: 550px;
+}
+
+#aplicabilidade h1 {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+#aplicabilidade #grid_fotos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#aplicabilidade #grid_fotos figure {
+    height: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    -webkit-box-shadow: 23px -22px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 23px -22px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 23px -22px 5px 0px rgba(0, 0, 0, 0.75);
+
+
+}

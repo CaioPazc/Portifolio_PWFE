@@ -1,0 +1,55 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: "BigNoodleTitling";
+    src: url(big_noodle_titling_oblique.ttf);
+}
+/* LAYOUT */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 4%;
+}
+
+.column {
+    padding: 15px;
+    width: 20%;
+}
+
+.column p {
+    margin-bottom: 10%;
+    margin-top: 10%;
+}
+
+.column h2 {
+    margin: 10%;
+    margin-left: 30%;
+    font-family: BigNoodleTitling;
+}
+
+img {
+    max-width: 100%;
+    padding-left: 6%;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .column {
+        flex: none;
+        width: 100%;
+        padding: 0;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+    }
+}
