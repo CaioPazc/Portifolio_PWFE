@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "../../01"
+		},
+		{
+			"path": "../../02"
+		},
+		{
+			"path": "../../03"
+		},
+		{
+			"path": "../../04"
+		},
+		{
+			"path": "../../05"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Modelo para dar zoom no html"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "06"
+	}
+}

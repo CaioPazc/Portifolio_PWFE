@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('glax.png');
+      background-size: cover;
+}
+
+/*header*/
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    margin-right: 3em;
+}
+
+header nav li {
+    display: inline;
+    margin-right: 3em;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* modelo site*/
+.princpic {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+}
+
+/**/
+.v1 {
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.v1 img {
+    justify-content: center;
+    margin-left: 32%;
+}
+
+.v1 h1 p {
+    margin: 10px;
+}
+
+/* */
+.v2 {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.v2 img {
+    justify-content: center;
+    margin-left: 32%;
+}
+
+.v2 h1 p {
+    margin: 10px;
+}
+
+/* */
+.v3 {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.v3 img {
+    justify-content: center;
+    margin-left: 32%;
+}
+
+.v3 h1 p {
+    margin: 10px;
+}
+
+/* */
+.v4 {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.v4 img {
+    justify-content: center;
+    margin-left: 32%;
+}
+
+.v4 h1 p {
+    margin: 10px;
+}
+
+/* botão */
+
+.linhabt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.button {
+    background-color: white;
+    --bg: #000;
+    --hover-text: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+    margin-left: 0.5%
+  }
+.button a {
+    color: white;
+    text-decoration: none;
+}
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
